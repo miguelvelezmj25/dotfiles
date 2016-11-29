@@ -60,6 +60,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
+# Optional if you have ANTLR
 export ANTLR_3=/Users/miguelvelez/Documents/Programming/ANTLR/Software
 export PIP_REQUIRE_VIRTUALENV=true
 export WORKON_HOME=$HOME/Documents/Programming/Python/.virtualenvs
@@ -94,7 +95,9 @@ export PATH=$PATH:$JAVA_HOME/jre/bin
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# Optional if you have ANTLR
 alias antlr3='java -cp "$ANTLR_3/antlr-3.5.2-complete-no-st3.jar:$CLASSPATH" org.antlr.Tool'
+# Optional if you have ANTLR
 alias setclasspathantlr3='export CLASSPATH="$ANTLR_3/antlr-3.5.2-complete-no-st3.jar:$CLASSPATH"'
 
 dpip() {
