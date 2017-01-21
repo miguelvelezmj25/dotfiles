@@ -70,6 +70,7 @@ export PYTHONSTARTUP=$HOME/.pythonrc.py
 source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH=$PATH:$JAVA_HOME/jre/bin
+export PATH=$PATH="$HOME/.jenv/bin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -105,3 +106,4 @@ dpip() {
 }
 
 eval "$(rbenv init -)"
+eval "$(jenv init -)"
